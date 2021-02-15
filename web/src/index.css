@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+li + li {
+  margin-top: 16px;
+}
+
+li img {
+  cursor: pointer;
+  margin-left: 16px;
+  width: 24px;
+}
